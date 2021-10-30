@@ -1,0 +1,60 @@
+.body{
+    background: rgb(167, 160, 160);
+}
+.container {
+    background: url(fotos/adoravir1.jpg);
+    background-attachment:contain;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+.text-center {
+    color:black;
+    font-size: 27px;
+    font-weight: 600;
+ 
+}
+.text-center a{
+    color: rgb(24, 22, 22);
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.text-center a:hover {
+          color: grey; 
+ }
+.button{
+ padding: 10px;
+ background-position: right;
+}
+
+
+.form-control {
+    background: transparent;
+}
+.col-md-8 {
+    background: rgb(247, 245, 244);
+}
+.bigicon {
+    font-size: 35px;
+    color: black;
+}
+ /* validaciones */
+.form-input-error {
+    display: none;
+    font-size: 12PX;
+    margin: 0%;
+  
+}
+.form-input-error-activo{
+    display: block;
+}
+
+.form-grupo-correcto .form-control {
+    border: 3px solid rgb(0, 132, 255);
+}
+
+.form-grupo-incorrecto .form-control {
+ border: 3px solid red;
+}
